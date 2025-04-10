@@ -1,0 +1,35 @@
+# .NET Core build outputs
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.cache
+*.dll
+*.exe
+
+# Dependency directories
+/packages/
+
+# Visual Studio files
+.vscode/
+.vs/
+*.sln.ide/
+*.csproj.user
+
+# Logs and runtime files
+*.log
+*.log.*
+
+# Environment-specific files
+appsettings.Development.json  # Exclude dev-specific settings
+secrets.json                  # Exclude sensitive secrets
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.swp
+*.swo
+*~
